@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.shadow{
+    background-color: rgba(176, 203, 226, 0.87);
+    height: 20%;
+    height: 30%;
+    width: 30%;
+    position: relative;
+    right: 20%;
+    bottom: 10%;
+    border-radius:1em;
+}
+.overall-container{
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(176, 203, 226, 0.452);
+}
+.float-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.bell-container{
+    background-color: rgb(22, 22, 78);
+    border-radius: 50%;
+    max-width: fit-content;
+    display: flex;
+    justify-content: end;
+}
+.bell{
+    height: 1.5em;
+    aspect-ratio: 1;
+  padding:.4em
+}
+.card{
+    background-color: rgba(176, 203, 226, 0.884);
+    max-width: 400px;
+    padding: 1em;
+    border-radius:1em;
+    position: absolute;
+}
+.email-img{
+    width: 80px;
+}
+.upper-card{
+    display: flex;
+    gap: 1em;
+}
+.buttons-notifications{
+padding: .2em 2em;
+
+}
+.card-buttons{
+    justify-content: space-around;
+    display: flex;
+    padding-block: 1em;
+}
